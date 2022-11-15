@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.notfound {
+    width: 66rem;
+    margin: 0 auto;
+    position: fixed;
+    top: -57px;
+    left: 379px;
+    transform: translate(-50%, -50%);
+}

@@ -16,7 +16,7 @@ export default function Ressetpassword() {
        return setPassword(e.target.value) 
     }
 
-    const url = `http://localhost:6030/api/user/update_password/${token}`
+    const url = `http://localhost:4000/api/user/update_password/${token}`
     const user = {password}
 
 

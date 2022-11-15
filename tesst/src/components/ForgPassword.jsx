@@ -26,7 +26,7 @@ export default function ForgPassword() {
 
   
 
-  const API_URL = "http://localhost:6030/api/user/forgetpassword"
+  const API_URL = "http://localhost:4000/api/user/forgetpassword"
 
 
 

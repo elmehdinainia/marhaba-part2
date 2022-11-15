@@ -28,7 +28,7 @@ export default function Register(){
 
   
 
-  const API_URL = "http://localhost:6030/api/user/register"
+  const API_URL = "http://localhost:4000/api/user/register"
 
 
 
