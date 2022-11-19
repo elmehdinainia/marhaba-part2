@@ -85,14 +85,14 @@ export default function Login(){
       </label>
       <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="password" type="password" placeholder="password" name="password"  value={password} onChange={handlePassword}/>
     </div>
-    <div class="flex items-start">
+    <div className="flex items-start">
             <div className="flex items-start">
                 <div className="flex items-center h-5">
-                    <input id="remember" type="checkbox" value="" class="w-4 h-4 bg-gray-50 rounded border border-gray-300 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800" required/>
+                <a href="/register" className="ml-auto text-sm text-blue-700 hover:underline dark:text-blue-500">creer a compts?</a>
                 </div>
-                <label for="remember" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Remember me</label>
+
             </div>
-            <a href="/forgetpassword" class="ml-auto text-sm text-blue-700 hover:underline dark:text-blue-500">Lost Password?</a>
+            <a href="/forgetpassword" className="ml-auto text-sm text-blue-700 hover:underline dark:text-blue-500">Lost Password?</a>
         </div>
 
 

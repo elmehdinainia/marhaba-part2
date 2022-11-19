@@ -13,6 +13,10 @@ import Client from './components/Client';
 import Admin from './components/Admin';
 import Regislivreur from './components/Regislivreur.jsx';
 import Statistique from './components/Statistique';
+import Valideemail from './components/Validemail.jsx';
+import Compt from './components/Compt';
+
+
 
 
 function App() {
@@ -33,12 +37,15 @@ function App() {
               <Route element = {<Admin />}>
                     <Route path='/Regislivreur' element={<Regislivreur/> }/>
                     <Route path='/Statistique' element={<Statistique/> }/>
+                    <Route path='/compts' element={<Compt />}/>
+
+              
                   
               </Route>
 
 
     <Route path='/*'  element={<Error404 />}/>
-              
+    <Route path='/validemail' element={<Valideemail/> }/>     
     <Route path='/client' element={<Client />}/>
     <Route path='/Admin' element={<Admin />}/>
     <Route path='/addlivreur' element={<Regislivreur />}/>
